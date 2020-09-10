@@ -4,6 +4,7 @@
 #Collaborator: Clare Robson cir5887@psu.edu
 #Section: 6
 #Breakout:13
+
 def getLetterGrade (grade):
   if grade >= 93.0:
     gradel = "A"
@@ -28,7 +29,7 @@ def getLetterGrade (grade):
 def run():
   grade = input("Enter your CMPSC 131 grade: ")
   grade = float(grade)
-  print(getLetterGrade(grade))
+  lettergrade = getLetterGrade(grade)
   print(f"Your letter grade for CMPSC 131 is {lettergrade}.")
 
 if __name__ == "__main__":
